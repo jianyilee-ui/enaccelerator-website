@@ -68,7 +68,7 @@ const TimelineSection = () => {
     <section id="timeline" className="bg-brand-light">
       <div className="container">
         <div className="max-w-4xl mx-auto mb-12 sm:mb-16 text-center">
-          <h2 className="mb-4 sm:mb-6">Your <span className="text-brand-yellow">10-Week</span> Journey</h2>
+          <h2 className="mb-4 sm:mb-6">Your <span className="text-brand-yellow">Week 3–12</span> Journey</h2>
           <p className="text-base sm:text-lg md:text-xl text-foreground/70 leading-relaxed">
             Follow our program from ideation to launch, with tailored support every step of the way.
           </p>
