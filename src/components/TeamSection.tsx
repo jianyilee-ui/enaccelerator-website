@@ -33,6 +33,8 @@ const teamMembers: TeamMember[] = [
     role: "Project Coordinator",
     bio: "Finance and Business Analytics @ UniMelb",
     imageUrl: "/team/trishton.jpg",
+    email: "trishtonlee@gmail.com",
+    linkedin: "https://www.linkedin.com/in/trishtonlee/",
   },
   {
     name: "Tiger Diao",
