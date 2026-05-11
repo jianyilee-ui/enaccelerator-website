@@ -31,17 +31,11 @@ const teamMembers: TeamMember[] = [
   {
     name: "Trishton Lee",
     role: "Project Coordinator",
-    bio: "Finance & Business Analytics @ The University of Melbourne | Founder @ PocketDry | EnAccelerator Program Advisor",
+    bio: "Program Advisor",
     imageUrl: "/team/trishton.jpg",
     email: "trishtonlee@gmail.com",
     linkedin: "https://www.linkedin.com/in/trishtonlee/",
   },
-  {
-    name: "Tiger Diao",
-    role: "Project Coordinator",
-    bio: "BCom & Dip.Music @ UniMelb",
-    imageUrl: "/team/tiger.jpg",
-  }
 ];
 
 const TeamSection = () => {
