@@ -50,7 +50,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li><a href="/#program" className="text-foreground/70 hover:text-brand-yellow transition-colors">About</a></li>
                   <li><a href="/#timeline" className="text-foreground/70 hover:text-brand-yellow transition-colors">Timeline</a></li>
-                  <li><a href="/applications-closed" className="text-foreground/70 hover:text-brand-yellow transition-colors">Apply</a></li>
+                  <li><a href="/apply" className="text-foreground/70 hover:text-brand-yellow transition-colors">Applications Closed</a></li>
                 </ul>
               </div>
               {/*<div>

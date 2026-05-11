@@ -15,28 +15,30 @@ type TeamMember = {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Kayson Wang",
-    role: "Founder",
-    bio: "Investments @ NextGen Ventures | Finance / Accounting @ Unimelb",
-    imageUrl: "images/team_images/kayson.jpg",
-    email: "kaysonwang2004@gmail.com",
-    linkedin: "https://www.linkedin.com/in/kayson-wang-582538247",
+    name: "Frederik Bangsgaard",
+    role: "Project Lead",
+    bio: "Investments @ NextGen | StartUpLink Project Director | EnAccelerator Project Lead | Full stack dev | Melb Uni",
+    imageUrl: "/team/frederik.jpg",
+    linkedin: "https://www.linkedin.com/in/frederik-bangsgaard-11240826b/",
   },
   {
-    name: "Kelly Choy",
-    role: "Program Coordinator",
-    bio: "Educator | Event Coordinator | Graphic Designer | Interest in Social Impact and Not-For-Profit Sectors",
-    imageUrl: "images/team_images/kelly.jpg",
-    email: "ckyk97@gmail.com",
-    linkedin: "https://www.linkedin.com/in/kellychoy11291997",
+    name: "Mark Ong",
+    role: "Project Lead",
+    bio: "Startups | Content Creation",
+    imageUrl: "/team/mark.jpg",
+    linkedin: "https://www.linkedin.com/in/mark-ong-032442358/",
   },
   {
-    name: "Nathan Pham",
-    role: "Program Coordinator",
-    bio: "Data Science at The University of Melbourne",
-    imageUrl: "images/team_images/nathan.jpg",
-    email: "hi@nathanlepham.com",
-    linkedin: "https://www.linkedin.com/in/nathan-pham-2a2a51264",
+    name: "Trishton Lee",
+    role: "Project Coordinator",
+    bio: "Finance and Business Analytics @ UniMelb",
+    imageUrl: "/team/trishton.jpg",
+  },
+  {
+    name: "Tiger Diao",
+    role: "Project Coordinator",
+    bio: "BCom & Dip.Music @ UniMelb",
+    imageUrl: "/team/tiger.jpg",
   }
 ];
 
@@ -51,7 +53,7 @@ const TeamSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
           {teamMembers.map((member, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
               <CardContent className="p-6 flex flex-col h-full">
@@ -72,14 +74,16 @@ const TeamSection = () => {
                 </div>
                 <p className="text-foreground/80 mb-6 flex-grow">{member.bio}</p>
                 <div className="flex gap-3 mt-auto">
-                  <a 
-                    href={`mailto:${member.email}`}
-                    className="flex items-center gap-1 text-sm text-foreground/70 hover:text-brand-yellow transition-colors"
-                    aria-label={`Email ${member.name}`}
-                  >
-                    <Mail size={16} />
-                    <span>Email</span>
-                  </a>
+                  {member.email && (
+                    <a
+                      href={`mailto:${member.email}`}
+                      className="flex items-center gap-1 text-sm text-foreground/70 hover:text-brand-yellow transition-colors"
+                      aria-label={`Email ${member.name}`}
+                    >
+                      <Mail size={16} />
+                      <span>Email</span>
+                    </a>
+                  )}
                   {member.linkedin && (
                     <a 
                       href={member.linkedin}

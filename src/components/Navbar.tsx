@@ -82,7 +82,7 @@ const Navbar = () => {
             </button>
           ))}
           <Button className="bg-brand-yellow text-black hover:bg-brand-yellow/90" asChild>
-            <Link to="/apply">Apply Now</Link>
+            <Link to="/apply">Applications Closed</Link>
           </Button>
         </nav>
 
@@ -128,7 +128,7 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               asChild
             >
-              <Link to="/apply">Apply Now</Link>
+              <Link to="/apply">Applications Closed</Link>
             </Button>
           </div>
         </div>

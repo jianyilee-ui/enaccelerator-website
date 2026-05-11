@@ -122,17 +122,33 @@ const HeroSection = () => {
             EnAccelerator is the premier student-run startup incubator at the University of Melbourne.
           </motion.p>
           
-          <motion.div 
-            className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
+          <motion.p
+            className="text-lg sm:text-xl md:text-2xl font-bold text-brand-yellow mb-6 sm:mb-8"
             variants={fadeInUp}
             custom={3}
           >
-            <Button 
-              size="lg" 
-              className="bg-brand-yellow text-black hover:bg-brand-yellow/90 w-full sm:w-auto min-w-[160px] sm:min-w-[180px] hover:scale-105 transition-transform shadow-md h-12 sm:h-14 text-sm sm:text-base" 
+            Applications for Semester 1, 2026 are now closed.
+          </motion.p>
+
+          <motion.p
+            className="text-sm sm:text-base md:text-lg text-foreground/70 mb-6 sm:mb-8 max-w-2xl mx-auto"
+            variants={fadeInUp}
+            custom={3.5}
+          >
+            Keep an eye out for our Demo Day later this semester, and stay tuned for Semester 2 applications!
+          </motion.p>
+
+          <motion.div
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
+            variants={fadeInUp}
+            custom={4}
+          >
+            <Button
+              size="lg"
+              className="bg-brand-yellow text-black hover:bg-brand-yellow/90 w-full sm:w-auto min-w-[160px] sm:min-w-[180px] hover:scale-105 transition-transform shadow-md h-12 sm:h-14 text-sm sm:text-base"
               asChild
             >
-              <Link to="/applications-closed">Apply Now</Link>
+              <Link to="/apply">Learn More</Link>
             </Button>
             {/* <Button 
               size="lg" 

@@ -38,7 +38,7 @@ const ApplicationsClosed = () => {
             EnAccelerator Applications
           </h1>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            Thank you for your interest in Melbourne's premier student startup incubator. Applications for our current cohort are now closed.
+            Thank you for your interest in Melbourne's premier student startup incubator. Applications for Semester 1, 2026 are now closed.
           </p>
         </div>
 
@@ -49,9 +49,12 @@ const ApplicationsClosed = () => {
         <section className="">
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-brand-yellow/10 to-brand-yellow/5 rounded-2xl p-12 text-center border border-brand-yellow/20">
-              <h2 className="text-3xl font-bold mb-8">Stay Updated</h2>
+              <h2 className="text-3xl font-bold mb-8">What's Next?</h2>
+              <p className="text-lg text-foreground/70 mb-4 max-w-2xl mx-auto">
+                Our Semester 1 cohort is underway! Keep an eye out for our Demo Day later this semester where our founders will showcase what they've been building.
+              </p>
               <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto">
-                Stay updated with what lies next for EnAccelerator. Join our waitlist to be the first to know about upcoming opportunities, events, and when applications reopen.
+                Applications for Semester 2, 2026 will open later this year. Join our waitlist to be the first to know when they go live!
               </p>
                 <a href="https://enactus-melbourne.notion.site/222333bb4fd7801b842cc998da5c3fe2?pvs=105" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="lg" className="border-brand-yellow text-brand-yellow hover:bg-brand-yellow hover:text-black text-lg px-8 py-4 h-auto">
