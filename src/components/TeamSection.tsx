@@ -31,7 +31,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Trishton Lee",
     role: "Project Coordinator",
-    bio: "Finance and Business Analytics @ UniMelb",
+    bio: "Finance & Business Analytics @ The University of Melbourne | Founder @ PocketDry | EnAccelerator Program Advisor",
     imageUrl: "/team/trishton.jpg",
     email: "trishtonlee@gmail.com",
     linkedin: "https://www.linkedin.com/in/trishtonlee/",
