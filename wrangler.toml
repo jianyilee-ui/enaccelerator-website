@@ -1,5 +1,5 @@
 
-name = "en-accelerator"
+name = "enaccelerator-website"
 
 [site]
 bucket = "./dist"
